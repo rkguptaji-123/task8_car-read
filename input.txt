@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="1.css" />
+    <title>Vehicle Information</title>
+</head>
+
+<body>
+    <form>
+        <div class="d1"><br><br><br><br><br><br><br><br><br><br><br><br><b><h1>Vehicle Information</h1></b><input type="text" name="commands" placeholder="Enter Your Vehicle Number.."><input type="submit" value="Display"></div>
+    </form>
+</body>
+<style>
+    body {
+        height: 100%;
+        height: 100%;
+        background-image: url("https://stat.overdrive.in/wp-content/odgallery/2020/06/57263_2020_Mercedes_Benz_GLS.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-image: ("https://stat.overdrive.in/wp-content/odgallery/2020/06/57263_2020_Mercedes_Benz_GLS.jpg");
+    }
+    
+    input[type=text],
+    select {
+        width: 20%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px solid #dcdcdc;
+        border-radius: 8px;
+        outline: none;
+    }
+    
+    input[type=text]:focus {
+        border: 2px solid var(--right-color);
+    }
+    
+    input[type=submit] {
+        width: 10%;
+        height: 8%;
+        background-color: green;
+        color: white;
+        font-size: 14px;
+        padding: 10px 10px;
+        margin: 5px 0;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+        letter-spacing: 1px;
+    }
+    
+    input[type=submit]:hover {
+        background-color: #661a1a;
+    }
+    
+    .d1 {
+        padding-left: 80px;
+    }
+    
+    h1 {
+        font-size: 42px;
+        text-shadow: 2px 2px 2px rgba(22, 20, 19, 0.4);
+        color: var(--left-color);
+    }
+</style>
+
+<body></body>
+
+</html>
